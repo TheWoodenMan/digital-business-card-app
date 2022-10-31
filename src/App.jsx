@@ -14,6 +14,7 @@ function App() {
 		<div>
 			<Intro />
 			<Button />
+			<Navbar />
 			<Counter />
 		</div>
 	);
