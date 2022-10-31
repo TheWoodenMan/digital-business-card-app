@@ -1,9 +1,9 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import Counter from "./components/Counter";
 import Intro from "./components/Intro";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";
+import Theme from "./components/Theme";
 
 import "./App.css";
 
@@ -12,6 +12,7 @@ function App() {
 
 	return (
 		<div>
+			<Theme />
 			<Intro />
 			<Button />
 			<Navbar />
