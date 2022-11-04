@@ -4,7 +4,7 @@ import { UilTwitter } from "@iconscout/react-unicons";
 
 export default (args) => {
 	return (
-		<footer className="footer flex justify-between w-full h-1/6">
+		<footer id="Footer" className="footer flex justify-between w-full h-1/6">
 			{/* div containing icon and name text */}
 			<div className="pl-9 h-full flex">
 				<UilSwatchbook size={64} />
