@@ -4,7 +4,7 @@ export default (args) => {
 	return (
 		<div
 			id="Demo"
-			className="flex flex-col w-full h-5/6 c p-4 items-center justify-center gap-2 font-sans bg-zinc-900"
+			className="flex flex-col w-full h-5/6 c p-4 items-center justify-center gap-2 font-sans bg-cyan-700 text-black"
 		>
 			<div className="h-1/6 w-full">
 				<h2 className="text-3xl pb-5 mb-5">
