@@ -24,10 +24,11 @@ export default (args) => {
 					/>
 				</div>
 			</div>
-			<div className="w-full h-1/6">
+			<div className="w-full h-1/6 pb-12">
 				<Button
 					{...args}
 					color="primary"
+					href="#Demo"
 					className="rounded-lg bg-black mr-12 px-8"
 				>
 					How Does it Work
