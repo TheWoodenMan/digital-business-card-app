@@ -2,8 +2,11 @@ import { Button } from "react-daisyui";
 
 export default (args) => {
 	return (
-		<div className="flex flex-col w-full h-5/6 c p-4 items-center justify-center gap-2 font-sans bg-zinc-900">
-			<div className="h-1/6 w-full">
+		<div
+			id="Landing"
+			className="flex flex-col w-full h-5/6 c p-4 items-center justify-center gap-2 font-sans bg-zinc-900"
+		>
+			<div className="h-1/6 w-full mt-8">
 				<h1 className="text-5xl">Digital Business Cards for your Team</h1>
 				<span className="text-2xl italic">At the click of a button</span>
 			</div>

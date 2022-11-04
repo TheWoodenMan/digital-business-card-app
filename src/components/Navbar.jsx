@@ -4,7 +4,7 @@ import { UilSwatchbook } from "@iconscout/react-unicons";
 export default (args) => {
 	return (
 		<Navbar {...args}>
-			<div className="flex justify-between w-full h-1/6 ">
+			<div id="Navbar" className="flex justify-between w-full h-1/6 ">
 				<div className="text-2xl flex justify-start  ">
 					<UilSwatchbook size={64} />
 					<h3 className="pt-4 pl-3">Digital Business Card App</h3>
