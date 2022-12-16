@@ -1,5 +1,7 @@
+var createError = require("http-errors");
 const express = require("express");
 const app = express();
+const path = require("path");
 const mongoose = require("mongoose");
 const passport = require("passport");
 const session = require("express-session");
@@ -10,6 +12,7 @@ const logger = require("morgan");
 const connectDB = require("./config/database");
 const mainRoutes = require("./routes/main");
 const postRoutes = require("./routes/posts");
+const React = require("react");
 const cors = require("cors");
 
 // test react app
@@ -27,8 +30,10 @@ require("./config/passport")(passport);
 //Connect To Database
 connectDB();
 
-//Using EJS for views
-app.set("view engine", require("react").renderFile);
+//Using  JSX for views
+app.set("views", __dirname + "/views");
+app.set("view engine", "jsx");
+app.engine("jsx", require("express-react-views").createEngine());
 
 //Static Folder
 app.use(express.static("../public"));
