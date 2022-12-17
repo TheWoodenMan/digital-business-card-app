@@ -37,6 +37,7 @@ app.engine("jsx", require("express-react-views").createEngine());
 
 //Static Folder
 app.use(express.static("../public"));
+app.use(express.static("../client"));
 
 //Body Parsing
 app.use(express.urlencoded({ extended: true }));
